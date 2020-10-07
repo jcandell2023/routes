@@ -1,11 +1,67 @@
 div.container {
-  text-align: center;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    color: #FFFFFF;
+    font-size: 67px;
+    line-height: 0.25;
 }
 
 header {
+    text-align: center;
+}
+h4 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    line-height: 0.5;
+}
+body {
+    background-color: #0B2302;
+    background-repeat: repeat-y;
+    align-content: flex-start;
+    align-self: auto;
+    background-position: top;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	background-color: #4CAF50;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.button:hover {
+    background-color: #22D920;
+}
+.button:focus {
+	background-color: chartreuse;
+}
+h2 {
+    align-content: flex-start;
+    text-align: center;
+    align-items: center;
+}
+ul {
+    align-items: horizontal;
 }
